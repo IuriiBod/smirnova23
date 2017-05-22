@@ -1,0 +1,10 @@
+<ul class="nav nav-tabs admin-menu-list">
+  <li role="presentation" *ngFor="let item of menuItems"
+    [class.active]="item.link === selectedItem"
+    (click)="onSelect(item)">
+    <a class="" routerLink="/adminpage/{{item.link}}">{{item.name}}</a>
+  </li>
+</ul>
+<div class="container">
+	<router-outlet></router-outlet>
+</div>

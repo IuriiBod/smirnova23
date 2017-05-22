@@ -1,0 +1,5 @@
+.my-drop-zone { border: dotted 3px lightgray; }
+.nv-file-over { border: dotted 3px #3CB371; } /* Default class applied to drop zones on over */
+.another-file-over-class { border: dotted 3px green; }
+.queue-wrapper { border-top: 1px dashed lightgray; }
+.progress { height: 10px; }

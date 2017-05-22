@@ -1,0 +1,22 @@
+<div class="content" role="main">
+    <div class="form-horizontal">
+        <div class="form-group" [ngClass]="{'has-error': error == 'Incorrect login' }">
+            <label class="col-sm-3 control-label">Login: </label>
+            <div class="col-sm-6">
+                <input class="form-control" [(ngModel)]="user.login" placeholder="login" required/>
+            </div>
+        </div>
+        <div class="form-group" [ngClass]="{'has-error': error == 'Incorrect password' }">
+            <label class="col-sm-3 control-label">Password: </label>
+            <div class="col-sm-6">
+                <input class="form-control" type="password" [(ngModel)]="user.password" placeholder="password" required/>
+                <span>qazKJH7</span>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-9">
+                <a (click)="logIn()" class="btn-primary border-blue waves-effect pull-right">Log in <i class="fa fa-paper-plane-o" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </div>    
+</div>

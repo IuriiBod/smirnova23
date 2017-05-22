@@ -1,0 +1,66 @@
+html, body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+body {
+  padding-top: 75px;
+}
+.content {
+  margin: 25px 0;
+}
+.both {
+  clear: both;
+}
+/*forms*/
+.form-control {
+  border-radius: 0px;
+}
+
+/*buttons*/
+.btn-primary {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  min-width: 100px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.btn-primary:hover {
+  text-decoration: none;
+}
+
+.border-blue {
+  border: 1px solid;
+  border-color: #00ADE3;
+}
+
+.waves-effect {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  vertical-align: middle;
+  z-index: 1;
+  will-change: opacity, transform;
+  transition: all .3s ease-out;
+}
+
+.has-error .control-label {
+  color: #e74c3c;
+}
+.has-error .form-control {
+  border: 2px solid #e74c3c;
+}
+
+.admin-menu-list {
+  margin-top: 5px;
+}
